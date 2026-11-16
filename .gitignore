@@ -1,0 +1,36 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Данные
+*.xlsx
+*.xls
+*.csv
+data/
+example_anonymized/*.xlsx
+
+# Результаты экспериментов
+*.png
+*.pdf
+*.docx
+*.svg
+
+# ОС и IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Логи
+*.log
